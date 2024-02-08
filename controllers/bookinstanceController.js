@@ -80,7 +80,6 @@ exports.bookinstance_create_post = [
 exports.bookinstance_delete_get = asyncHandler(async (req, res, next) => {
   // Get details of bookInstance
   const bookInstance = await BookInstance.findById(req.params.id).exec();
-  console.log(bookInstance);
   if (bookInstance === null) {
     // No results.
     res.redirect('/catalog/bookinstances');
