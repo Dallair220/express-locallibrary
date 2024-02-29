@@ -10,4 +10,4 @@ This project demonstrates:
 
 
 ![image](https://github.com/Dallair220/express-locallibrary/assets/93786532/b62944f6-9f52-495b-8e20-d9d22cde3f1f)
-Live Website: https://express-library.up.railway.app/catalog
+Live Website: https://express-library.up.railway.app/
